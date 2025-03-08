@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>ViewModel.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ViewModel.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com</span><span class="s2">.</span><span class="s1">example</span><span class="s2">.</span><span class="s1">test</span><span class="s2">;</span>
+
+<span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">fxml</span><span class="s2">.</span><span class="s1">FXML</span><span class="s2">;</span>
+<span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">beans</span><span class="s2">.</span><span class="s1">property</span><span class="s2">.</span><span class="s1">IntegerProperty</span><span class="s2">;</span>
+<span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">beans</span><span class="s2">.</span><span class="s1">property</span><span class="s2">.</span><span class="s1">SimpleIntegerProperty</span><span class="s2">;</span>
+<span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">beans</span><span class="s2">.</span><span class="s1">property</span><span class="s2">.</span><span class="s1">SimpleStringProperty</span><span class="s2">;</span>
+<span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">beans</span><span class="s2">.</span><span class="s1">property</span><span class="s2">.</span><span class="s1">StringProperty</span><span class="s2">;</span>
+<span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">List</span><span class="s2">;</span>
+<span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">io</span><span class="s2">.</span><span class="s1">IOException</span><span class="s2">;</span>
+
+<span class="s0">public class </span><span class="s1">ViewModel</span>
+<span class="s2">{</span>
+
+  <span class="s0">private </span><span class="s1">Model model</span><span class="s2">;</span>
+
+
+  <span class="s0">public </span><span class="s1">ViewModel</span><span class="s2">(</span><span class="s1">Model model</span><span class="s2">)</span>
+  <span class="s2">{</span>
+    <span class="s0">this</span><span class="s2">.</span><span class="s1">model </span><span class="s2">= </span><span class="s1">model</span><span class="s2">;</span>
+  <span class="s2">}</span>
+  <span class="s0">public void </span><span class="s1">initialize</span><span class="s2">()</span>
+  <span class="s2">{</span>
+  <span class="s2">}</span>
+  <span class="s0">public </span><span class="s1">List</span><span class="s2">&lt;</span><span class="s1">Vinyl</span><span class="s2">&gt; </span><span class="s1">getVinyls</span><span class="s2">()</span>
+  <span class="s2">{</span>
+   <span class="s0">return </span><span class="s1">model</span><span class="s2">.</span><span class="s1">getVinyls</span><span class="s2">();</span>
+  <span class="s2">}</span>
+
+<span class="s2">}</span></pre>
+</body>
+</html>
